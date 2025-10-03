@@ -1,0 +1,37 @@
+.searchbar-container input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 30px;
+}
+
+.searchbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 490px;
+  margin: 20px auto;
+  background: #fff;
+  border: 2px solid #ccc;
+  border-radius: 30px;
+  padding: 5px 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.searchbar-container i {
+    width: 10%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+@media(max-width:480px) {
+    .searchbar-container {
+        display: none;
+    }
+
+}

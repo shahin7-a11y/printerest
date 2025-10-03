@@ -1,0 +1,71 @@
+.loginform-container{
+    width: 400px;
+    height: calc(100vh - 130px);
+    background-color: rgb(255, 255, 255);
+    margin-right: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 7px;
+}
+
+.form-heading h1{
+    text-transform: capitalize;
+    text-align: center;
+}
+.form-inputs{
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input-set{
+    width: 70%;
+    margin: auto;
+}
+.input-set input{
+    width: 100%;
+    height: 45px;
+    margin: auto;
+    border-radius: 7px;
+    border: 0.5px solid black;
+    padding-left: 8px;
+
+    
+}
+.forgot,.loginButtons{
+    width: 70%;
+}
+.loginButtons button{
+    width: 100%;
+  
+    
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+padding: 10px 20px;
+  border: none;
+  border-radius: 7px;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: rgb(255, 0, 0);
+}
+.forgot a{
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(80, 80, 209);
+}
+.loginform-container h5{
+    color: gray;
+    font-weight: 100;
+}
+
+.loginform-container h6{
+    color: rgb(136, 126, 126);
+    font-weight: 100;
+}

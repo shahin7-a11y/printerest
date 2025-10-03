@@ -1,0 +1,44 @@
+.image-container {
+    height: auto;
+    columns: 4 250px;
+    gap: 1rem;
+    margin: 1rem;
+}
+
+.viewimage {
+    width: 100%;
+    height: auto;
+    margin: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.viewimage img {
+    width: 100%;
+    height: auto;
+    border-radius: 7px;
+     display: block;
+
+}
+
+
+.download-favorite-div{
+    display: flex;
+    align-items: center;
+    gap: 6.5rem;
+      
+    border: none;
+    position: absolute;
+    width: 100%;
+    bottom: 1rem;
+    left: 1rem;
+    
+    
+}
+.viewimage button{
+    /* background:none; */
+    border: none;
+    background-color: #fff;
+    
+    
+}

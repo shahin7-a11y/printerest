@@ -1,0 +1,85 @@
+.admin-create-big-container{
+    background-color: rgb(233, 230, 230);
+    padding: 20px;
+    height: 100vh;
+}
+.admin-create-big-container h2{
+    margin-left: 20px;
+ margin-top: 0;
+}
+.admin-create-conatainer{
+    display: flex;
+    justify-content: space-around;
+
+}
+.admin-create-left-container{
+    display: flex;
+   
+}
+
+.admin-create-left-container .input-section{
+  background-color: rgb(230, 227, 227);
+  height: 400px;
+  width: 300px;
+  border-radius: 5px;
+}
+.admin-right-container select{
+ background-color: rgb(255, 255, 255);
+  height: 40px;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+}
+.admin-right-container input{
+    display: flex;
+    padding: 20px;
+    width: 300px;
+    /* border: 1px solid black; */
+    border: none;
+    border-radius: 5px;
+
+    
+}
+.admin-right-container{
+    height: 400px;
+    background-color: rgba(228, 225, 225, 0.74);
+    width: 400px;
+   display: flex;
+   /* justify-content: center; */
+   padding-left: 30px;
+   align-items: center;
+   /* padding: 10px; */
+   border-radius: 5px;
+   
+}
+.admin-create-button{
+    /* margin-left: 50%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    
+}
+.admin-create-button button{
+
+    padding: 10px;
+    height: 30px;
+    width: auto;
+padding: 10px 20px;
+  border: none;
+  border-radius: 7px;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: black;
+    
+}
+.admin-right-container textarea{
+    height: 70px;
+    width: 100%;
+    border: none;
+}
+.input-section img{
+    object-fit: cover;
+}

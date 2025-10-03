@@ -1,0 +1,93 @@
+.create-big-container {
+    background-color: white;
+    padding: 20px;
+}
+
+.create-big-container h2 {
+    margin-left: 20px;
+    margin-top: 0;
+}
+
+.create-conatainer {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.create-left-container input {
+    background-color: rgb(233, 233, 233);
+    height: auto;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.right-container input {
+    display: flex;
+    padding: 20px;
+    width: 300px;
+    /* border: 1px solid black; */
+    border: none;
+    border-radius: 5px;
+
+}
+.right-container select{
+    height: 40px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 8px;
+}
+
+.right-container {
+    height: 400px;
+    background-color: rgba(228, 225, 225, 0.74);
+    width: 400px;
+    display: flex;
+    /* justify-content: center; */
+    padding-left: 30px;
+    align-items: center;
+    /* padding: 10px; */
+    border-radius: 5px;
+
+}
+
+.create-button {
+    /* margin-left: 50%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.create-button button {
+
+    padding: 10px;
+    height: 30px;
+    width: auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 7px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: black;
+
+}
+
+.right-container textarea {
+    height: 70px;
+    width: 100%;
+    border: none;
+}
+
+.input-section {
+    background-color: rgb(255, 255, 255);
+    height: 400px;
+    width: 300px;
+    border-radius: 5px;
+    /* display: flex;    */
+
+}
+

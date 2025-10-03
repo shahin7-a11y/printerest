@@ -1,0 +1,74 @@
+.admin-edit-big-container{
+    background-color: white;
+    padding: 20px;
+}
+.admin-edit-big-container h2{
+    margin-left: 20px;
+ margin-top: 0;
+}
+.admin-edit-conatainer{
+    display: flex;
+    justify-content: space-around;
+
+}
+.admin-edit-left-container{
+    display: flex;
+   
+}
+
+.admin-edit-left-container input{
+  background-color: rgb(230, 227, 227);
+  /* height: 10px;   */
+  width: 300px;
+  border-radius: 5px;
+}
+.admin-edit-right-container input{
+    display: flex;
+    padding: 20px;
+    width: 300px;
+    /* border: 1px solid black; */
+    border: none;
+    border-radius: 5px;
+
+    
+}
+.admin-edit-right-container{
+    height: 400px;
+    background-color: rgba(228, 225, 225, 0.74);
+    width: 400px;
+   display: flex;
+   /* justify-content: center; */
+   padding-left: 30px;
+   align-items: center;
+   /* padding: 10px; */
+   border-radius: 5px;
+   
+}
+.admin-edit-button{
+    /* margin-left: 50%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    
+}
+.admin-edit-button button{
+
+    padding: 10px;
+    height: 30px;
+    width: auto;
+padding: 10px 20px;
+  border: none;
+  border-radius: 7px;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: black;
+    
+}
+.admin-edit-right-container textarea{
+    height: 70px;
+    width: 100%;
+    border: none;
+}

@@ -1,0 +1,26 @@
+.aesthetic-image-container{
+        columns: 4 250px;
+    margin: 1rem;
+    gap: 1rem;
+
+}
+.aesthetic-image-view{
+            width: 100%;
+    height: auto;
+    margin: 10px;
+    overflow: hidden;
+    position: relative;
+}
+.aesthetic-image-view img{
+            width: 100%;
+    height: auto;
+    border-radius: 7px;
+    display: block;
+}
+.aesthetic-image-view button{
+            background: none;
+    border: none;
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+}

@@ -1,0 +1,42 @@
+.Admin-viewimage-contanier {
+
+   columns: 4 250px;
+
+    gap: 1rem;
+    margin: 1rem;
+  
+}
+
+.admin-viewimage-image {
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    
+}
+
+.admin-viewimage-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 7px;
+    height: auto;
+}
+.admin-viewimage-image button{
+    height: 30px;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-radius: 7px;
+}
+.admin-viewimage-button{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 5px; 
+
+}

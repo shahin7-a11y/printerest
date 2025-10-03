@@ -1,0 +1,38 @@
+.background-image {
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-image: url(../../images/homebg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    /* margin-top: 100px; */
+}
+
+.background-image::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.75); /* black with 75% opacity */
+    z-index: 1;
+   
+}
+
+.background-image > * {
+    position: relative;
+    z-index: 2; 
+}
+.login-text h1{
+color: white;
+font-size: 70px;
+font-weight: 600;
+}
+.login-text{
+    margin-left: 130px;
+}
+
+

@@ -1,0 +1,29 @@
+.beach-image-container {
+    height: auto;
+    columns: 4 250px;
+    gap: 1rem;
+    margin: 1rem;
+}
+
+.beach-image-view {
+    width: 100%;
+    height: auto;
+    margin: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.beach-image-view img {
+    width: 100%;
+    height: auto;
+    border-radius: 7px;
+    display: block;
+}
+
+.beach-image-view button {
+    background: none;
+    border: none;
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+}

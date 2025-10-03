@@ -1,0 +1,97 @@
+.explore-big-container {
+    height: auto;
+    width: auto;
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+}
+.explore-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 3rem;
+}
+.explore-heading{
+    margin-left: 36%;
+    height: 110px;
+    color: rgb(0, 0, 0);
+}
+.explore-heading h1{
+    font-size: 35px;    
+}
+.explore-container1 {
+    background-image: url(../../images/container2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 500px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.479);
+    font-size: 40px;
+}
+
+.explore-container2{
+    background-image: url(../../images/container1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 500px;
+    border-radius: 30px;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.733);
+    font-size: 40px;
+}
+.explore-container3{
+    background-image: url(../../images/containe3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 500px;
+    border-radius: 30px;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(250, 250, 250, 0.849);
+    font-size: 40px;
+}
+.explore-container4{
+        background-image: url(../../images/container4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 500px;
+    border-radius: 30px;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(245, 245, 245, 0.801);
+    font-size: 40px;
+}
+.explore-button{
+    height: 100px;
+    width: 400px;
+    margin-left: 32%;
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+.explore-button button{
+    padding: 10px;
+    width: 160px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(65, 65, 65, 0.158); 
+    font-weight: 700;
+  
+}
