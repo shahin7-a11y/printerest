@@ -10,6 +10,7 @@ import { Carscatagery } from "../../../components/carscatagery/Carscatagery"
 import { Womencatagery } from "../../../components/womenscatagery/Womencatagery"
 import { Aestheticcatagery } from "../../../components/aestheticcatagery/Aestheticcatagery"
 import { Favorites } from "../Favorites/Favorites"
+import { Usercard } from "../../../components/usercard/Usercard"
 
 function Home() {
 
@@ -32,8 +33,10 @@ function Home() {
   return (
     <div className="home-big-container">
 
-      <Navbar position="fixed" getSetNavDetails={getSetNavDetails} setsearch={setsearch} justifycontent="space-between"/>
+      <Navbar position="fixed" getSetNavDetails={getSetNavDetails} setsearch={setsearch} justifycontent="space-between" setbackground={setbackground}/>
       <div className="home-container">
+        <Usercard/>
+        
 
 
         <div className="sideBar">
@@ -59,6 +62,7 @@ function Home() {
           {background == "women" ? <Womencatagery /> : ""}
           {background == "aesthetic" ? <Aestheticcatagery /> : ""}
           {background== "favorite"?<Favorites/>:""}
+          {background=="usercard"?<Usercard setbackground={setbackground}/>:""}
 
         </div>
 

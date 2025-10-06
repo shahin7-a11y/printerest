@@ -11,6 +11,7 @@ import { Home } from './pages/home/homepage/Home';
 import { Adminhome } from './pages/home/Adminhome/Adminhome';
 // import { Loginhome } from './pages/home/loginhome/LoginHome';
 import { Aboutpage } from './pages/home/About/About';
+import { Usercard } from './components/usercard/Usercard';
 // import { Signform } from './pages/home/signform/signform';
 
 
@@ -26,6 +27,7 @@ function App() {
       <Route path='/home' element={<Home/>}/>
       <Route path='/admin' element={<Adminhome/>}/>
       <Route path='/about' element={<Aboutpage/>}/>
+      <Route path='/usercard' element={<Usercard/>}/>
 
 
      </Routes>

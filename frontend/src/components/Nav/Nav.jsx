@@ -5,7 +5,7 @@ import { Button } from '../button/Button';
 import { useState } from 'react';
 import { Searchbar } from '../SearchBar/Searchbar';
 
-const Navbar = ({ position, getSetNavDetails, boxshadow ,setsearch,justifycontent,display,check}) => {
+const Navbar = ({ position, getSetNavDetails, boxshadow ,setsearch,justifycontent,display,check,setbackground}) => {
   const [navDetails, setNavDetails] = useState(false)
 
   getSetNavDetails(setNavDetails)
@@ -45,7 +45,7 @@ const Navbar = ({ position, getSetNavDetails, boxshadow ,setsearch,justifyconten
         </div> */}
       {
         check !=='login' ? (
-            <div className='nav-account-info'>
+            <div className='nav-account-info' onClick={()=>setbackground("usercard")}>
         <h4>A</h4>
       </div>
         ) :''

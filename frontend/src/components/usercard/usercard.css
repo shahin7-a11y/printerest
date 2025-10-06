@@ -1,0 +1,185 @@
+:root {
+    --bg: #0f1720;
+    --panel: #1f2933;
+    --muted: #9aa2ad;
+    --accent: #e64a3c;
+    --card-radius: 10px;
+    font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto,
+        "Helvetica Neue", Arial;
+}
+
+.stage {
+    width: 100%;
+    /* max-width: 92vw; */
+    height: 100vh;
+    /* background: linear-gradient(180deg, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.55)); */
+    border-radius: 14px;
+    padding: 36px 24px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 12px 40px rgba(3, 6, 10, 0.6),
+        inset 0 1px 0 rgba(255, 255, 255, 0.02);
+    position: absolute;
+    top: 0;
+    left: 20px;
+
+}
+
+.card {
+    width: 390px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.02), rgba(0, 0, 0, 0.06));
+    border-radius: var(--card-radius);
+    box-shadow: 0 8px 20px rgba(2, 6, 12, 0.6);
+    padding: 26px 20px;
+    box-sizing: border-box;
+    color: var(--bg);
+    background-color: #950cbe;
+    position: relative;
+    height: auto;
+}
+
+.profile-top {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    flex-direction: column;
+}
+
+.avatar {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #3b5060, #2b3944);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+    position: relative;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.45);
+}
+
+.avatar .camera {
+    position: absolute;
+    right: -6px;
+    bottom: -6px;
+    background: #fff;
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.35);
+}
+
+.camera svg {
+    width: 14px;
+    height: 14px;
+    display: block;
+}
+
+.name {
+    margin-top: 12px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    color: #f5f7fa;
+    font-size: 18px;
+}
+
+.email {
+    margin-top: 6px;
+    color: var(--muted);
+    font-size: 13px;
+}
+
+.btn-profile {
+    margin-top: 14px;
+    border: none;
+    background: var(--accent);
+    color: white;
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 6px 14px rgba(230, 74, 60, 0.18);
+    transition: transform 0.14s ease;
+    display: inline-block;
+}
+
+.btn-profile:active {
+    transform: translateY(1px);
+}
+
+.divider {
+    height: 1px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.02));
+    margin: 18px 0 14px 0;
+    border-radius: 2px;
+}
+
+.actions {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.action {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: var(--muted);
+    font-weight: 600;
+    cursor: pointer;
+    user-select: none;
+    font-size: 14px;
+}
+
+.action svg {
+    width: 18px;
+    height: 18px;
+    display: block;
+    opacity: 0.95;
+}
+
+.action.logout {
+    color: #e9f0f6;
+}
+
+.fake-bottom {
+    margin-top: 20px;
+    height: 36px;
+    border-radius: 8px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.01), rgba(255, 255, 255, 0.02));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--muted);
+    font-size: 12px;
+    padding: 6px 10px;
+    box-sizing: border-box;
+}
+
+@media (max-width: 380px) {
+    .card {
+        width: 92%;
+    }
+
+    .stage {
+        padding: 20px 12px;
+    }
+}
+
+.profile-top i {
+    font-size: 20px;
+    color: black;
+    font-weight: 900;
+    /* font-style: oblique; */
+    position: absolute;
+    margin-left: 80%;
+    margin-top: -10%;
+}
